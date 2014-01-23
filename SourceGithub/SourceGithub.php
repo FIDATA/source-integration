@@ -330,7 +330,9 @@ endif; ?></td>
 			$t_commit_id = array_shift( $s_parents );
 
 			echo "Retrieving $t_commit_id ... ";
-			$t_uri = $this->api_uri( $p_repo, "repos/$t_username/$t_reponame/commits/$t_commit_id" );
+			$p_path = "repos/$t_username/$t_reponame/commits";
+			if ($t_commit_id !== "") $p_path .= "/$t_commit_id";
+			$t_uri = $this->api_uri( $p_repo, $p_path );
 			$t_json = $this->api_json_url( $p_repo, $t_uri );
 
 			if ( false === $t_json || is_null( $t_json ) ) {
