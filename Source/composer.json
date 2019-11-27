@@ -1,0 +1,16 @@
+{
+    "name": "fidata/source",
+    "description": "Flexible framework for fully integrating any sort of Version Control System (VCS) with Mantis",
+    "type": "mantisbt-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Reese",
+            "email": "john@noswap.com"
+        },
+        {
+            "name": "MantisBT Team",
+            "email": "mantisbt-dev@lists.sourceforge.net"
+        }
+    ]
+}

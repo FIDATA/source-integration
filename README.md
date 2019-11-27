@@ -166,3 +166,12 @@ The latest source code is available on
 [GitHub](https://github.com/mantisbt-plugins/source-integration);
 John Reese's original project documentation can be found on his web site,
 [noswap.com](http://noswap.com/projects/source-integration/).
+
+## Creating Composer package
+
+```
+cd <PackageName>
+mkdir build
+composer archive --format=zip --dir=build --file=<PackageName>
+curl -u%ARTIFACTORY_USERNAME%:%ARTIFACTORY_PASSWORD% "https://fidata.jfrog.io/fidata/composer-local/fidata/<PackageName>.zip;composer.version=2.3.0" -T build/<PackageName>.zip
+```

@@ -1,0 +1,16 @@
+{
+    "name": "fidata/source-github",
+    "description": "Git repositories hosted on GitHub",
+    "type": "mantisbt-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Reese",
+            "email": "john@noswap.com"
+        },
+        {
+            "name": "MantisBT Team",
+            "email": "mantisbt-dev@lists.sourceforge.net"
+        }
+    ]
+}
