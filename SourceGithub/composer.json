@@ -12,5 +12,10 @@
             "name": "MantisBT Team",
             "email": "mantisbt-dev@lists.sourceforge.net"
         }
-    ]
+    ],
+    "archive": {
+        "exclude": [
+            ".gitignore"
+        ]
+    }
 }

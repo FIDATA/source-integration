@@ -5,5 +5,3 @@
 *.buildpath
 *.project
 *.idea
-build
-vendor
