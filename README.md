@@ -172,6 +172,6 @@ John Reese's original project documentation can be found on his web site,
 ```
 cd <PackageName>
 mkdir build
-composer archive --format=zip --dir=build --file=<PackageName>
-curl -u%ARTIFACTORY_USERNAME%:%ARTIFACTORY_PASSWORD% "https://fidata.jfrog.io/fidata/composer-local/fidata/<PackageName>.zip;composer.version=2.3.0" -T build/<PackageName>.zip
+composer archive --format=zip --dir=build --file=<PackageName>-2.3.0
+curl -u%ARTIFACTORY_USERNAME%:%ARTIFACTORY_PASSWORD% "https://fidata.jfrog.io/fidata/composer-local/fidata/<PackageName>-2.3.0.zip;composer.version=2.3.0" -T build/<PackageName>-2.3.0.zip
 ```
